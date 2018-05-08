@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  current_subgame: 1
+  current_player: MyString
+  game_started: false
+
+two:
+  current_subgame: 1
+  current_player: MyString
+  game_started: false
