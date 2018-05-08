@@ -45,7 +45,6 @@ class Board < ActiveRecord::Base
                     is_complete_line(player_coords, [0,4,8]) ||
                     is_complete_line(player_coords, [2,4,6])
     self.update_attributes(:winning_player => player) if is_completed
-    is_completed
   end
 
   def is_complete_line(player_coords, line_coords)
