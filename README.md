@@ -1,6 +1,7 @@
 `rake db:create`
 `rake db:migrate`
 In rails console to test ttt:
+
 `
 def assert_equal(a,b)
   p a == b
