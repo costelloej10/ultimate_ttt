@@ -2,7 +2,7 @@
 `rake db:migrate`
 In rails console to test ttt:
 
-`
+```
 def assert_equal(a,b)
   p a == b
 end
@@ -28,4 +28,5 @@ assert_equal u.subgames_completed, []
 assert_equal u.current_player, "x"
 u.take_turn(4,0)
 assert_equal u.subgames_completed, [["x", 4]] 
-`
+
+```
