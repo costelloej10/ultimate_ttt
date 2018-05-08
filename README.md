@@ -15,7 +15,6 @@ assert_equal u.current_player, "o"
 assert_equal u.current_subgame, 4
 assert_equal u.take_turn(0,4), "Not playing in correct game"
 u.take_turn(4,4)
-assert_equal u.get_boards[0].o, [4]
 assert_equal u.current_player, "x"
 u.take_turn(4,6)
 assert_equal u.current_player, "o"
